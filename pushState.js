@@ -29,6 +29,7 @@ function fries() {
 }
 
 function showPlate(name) {  
+  console.log(name);
   document.getElementById("chosen_plate").innerHTML = name;
 }
 
